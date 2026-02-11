@@ -1,0 +1,9 @@
+{
+  "id": "openclaw-bonsai",
+  "providers": ["bonsai"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

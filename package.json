@@ -1,0 +1,27 @@
+{
+  "name": "openclaw-bonsai",
+  "version": "0.1.0",
+  "description": "OpenClaw provider plugin for Bonsai — free access to frontier coding models",
+  "type": "module",
+  "keywords": [
+    "openclaw",
+    "bonsai",
+    "ai",
+    "claude",
+    "gpt",
+    "provider",
+    "plugin"
+  ],
+  "license": "MIT",
+  "author": "Jonathan Hill",
+  "devDependencies": {
+    "openclaw": "*",
+    "typescript": "^5.7.0",
+    "vitest": "^4.0.0"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
