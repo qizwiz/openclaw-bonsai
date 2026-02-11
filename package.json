@@ -18,6 +18,9 @@
     "type": "git",
     "url": "https://github.com/qizwiz/openclaw-bonsai"
   },
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "devDependencies": {
     "openclaw": "*",
     "typescript": "^5.7.0",
