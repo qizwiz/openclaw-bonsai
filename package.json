@@ -14,6 +14,10 @@
   ],
   "license": "MIT",
   "author": "Jonathan Hill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qizwiz/openclaw-bonsai"
+  },
   "devDependencies": {
     "openclaw": "*",
     "typescript": "^5.7.0",
