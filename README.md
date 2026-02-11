@@ -1,5 +1,10 @@
 # openclaw-bonsai
 
+[![CI](https://github.com/qizwiz/openclaw-bonsai/actions/workflows/ci.yml/badge.svg)](https://github.com/qizwiz/openclaw-bonsai/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/openclaw-bonsai)](https://www.npmjs.com/package/openclaw-bonsai)
+[![license](https://img.shields.io/npm/l/openclaw-bonsai)](https://github.com/qizwiz/openclaw-bonsai/blob/main/LICENSE)
+[![node](https://img.shields.io/node/v/openclaw-bonsai)](https://nodejs.org)
+
 OpenClaw provider plugin for [Bonsai](https://trybons.ai) — free access to frontier coding models.
 
 ## Install
@@ -11,7 +16,7 @@ openclaw plugins install openclaw-bonsai
 Then run the auth setup:
 
 ```bash
-openclaw onboard auth
+openclaw models auth login
 # Select "Bonsai" from the provider list
 ```
 
